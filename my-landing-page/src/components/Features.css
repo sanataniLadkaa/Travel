@@ -1,0 +1,33 @@
+.features {
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+}
+
+/* Responsive Features Section */
+@media (max-width: 768px) {
+  .feature-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
