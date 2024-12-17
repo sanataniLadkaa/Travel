@@ -80,4 +80,3 @@ const Hero = ({ isLoggedIn, onLoginRedirect }) => {
 };
 
 export default Hero;
-

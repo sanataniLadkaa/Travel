@@ -55,6 +55,10 @@ const Places = () => {
           </div>
         ))}
       </div>
+      {/* Add the button here */}
+      <button className="action-button"><a href="https://tripsuggestion.onrender.com" className="link-button">
+        Click for Trip Suggestion</a>
+      </button>
     </div>
   );
 };
